@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="test-framework"
+		revision="working@vultr.guest"
+		conf="compile"
+		confs="compile"
+		date="20200801141203"/>
+	<dependencies>
+		<module organisation="com.carrotsearch.randomizedtesting" name="randomizedtesting-runner">
+			<revision name="2.7.6" status="release" pubdate="20191230163732" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<metadata-artifact status="successful" details="" size="2688" time="11" location="/root/.ivy2/cache/com.carrotsearch.randomizedtesting/randomizedtesting-runner/ivy-2.7.6.xml" searched="true" original-local-location="/root/.ivy2/cache/com.carrotsearch.randomizedtesting/randomizedtesting-runner/ivy-2.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.7.6/randomizedtesting-runner-2.7.6.pom"/>
+				<caller organisation="org.apache.lucene" name="test-framework" conf="compile" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="randomizedtesting-runner" type="jar" ext="jar" status="successful" details="" size="249566" time="127" location="/root/.ivy2/cache/com.carrotsearch.randomizedtesting/randomizedtesting-runner/jars/randomizedtesting-runner-2.7.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.7.6/randomizedtesting-runner-2.7.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204161743" resolver="public" artresolver="main" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="23678" time="62" location="/root/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="true" original-local-location="/root/.ivy2/cache/junit/junit/ivy-4.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="org.apache.lucene" name="test-framework" conf="compile" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="314932" time="94" location="/root/.ivy2/cache/junit/junit/jars/junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709210802" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<metadata-artifact status="successful" details="" size="766" time="14" location="/root/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="true" original-local-location="/root/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="org.apache.lucene" name="test-framework" conf="compile" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="successful" details="" size="45024" time="19" location="/root/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

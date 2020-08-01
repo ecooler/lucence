@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="expressions"
+		revision="working@vultr.guest"
+		conf="compile"
+		confs="compile"
+		date="20200801141228"/>
+	<dependencies>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="7.2" status="release" pubdate="20190929070457" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="successful" details="" size="3668" time="11" location="/root/.ivy2/cache/org.ow2.asm/asm-commons/ivy-7.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.ow2.asm/asm-commons/ivy-7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="7.2" rev-constraint-default="7.2" rev-constraint-dynamic="7.2" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="successful" details="" size="70051" time="11" location="/root/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="7.2" status="release" pubdate="20190929070450" resolver="public" artresolver="main" homepage="http://asm.ow2.io/" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<license name="BSD-3-Clause" url="https://asm.ow2.io/license.html"/>
+				<metadata-artifact status="successful" details="" size="2944" time="11" location="/root/.ivy2/cache/org.ow2.asm/asm/ivy-7.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.ow2.asm/asm/ivy-7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="7.2" rev-constraint-default="7.2" rev-constraint-dynamic="7.2" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="successful" details="" size="114873" time="12" location="/root/.ivy2/cache/org.ow2.asm/asm/jars/asm-7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/7.2/asm-7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.5.1-1" status="release" pubdate="20150820191403" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="2312" time="16" location="/root/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml" searched="true" original-local-location="/root/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="4.5.1-1" rev-constraint-default="4.5.1-1" rev-constraint-dynamic="4.5.1-1" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="jar" ext="jar" status="successful" details="" size="302034" time="13" location="/root/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.1-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

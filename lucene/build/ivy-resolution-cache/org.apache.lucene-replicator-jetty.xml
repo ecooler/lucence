@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="replicator"
+		revision="working@vultr.guest"
+		conf="jetty"
+		confs="http, jetty, start, servlet, logging"
+		date="20200801141235"/>
+	<dependencies>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227184324" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="5">
+				<metadata-artifact status="successful" details="" size="1168" time="11" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.27.v20200227/jetty-continuation-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="successful" details="" size="25461" time="10" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.27.v20200227/jetty-continuation-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227184048" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<metadata-artifact status="successful" details="" size="2320" time="9" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.27.v20200227/jetty-servlet-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="successful" details="" size="131516" time="21" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.27.v20200227/jetty-servlet-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227183920" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="2757" time="9" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.27.v20200227/jetty-server-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="successful" details="" size="689664" time="23" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.27.v20200227/jetty-server-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227183812" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="6">
+				<metadata-artifact status="successful" details="" size="4238" time="8" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.27.v20200227/jetty-http-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="successful" details="" size="211791" time="13" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.27.v20200227/jetty-http-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227183753" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="4">
+				<metadata-artifact status="successful" details="" size="1303" time="11" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.27.v20200227/jetty-io-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="successful" details="" size="159867" time="11" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.27.v20200227/jetty-io-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.4.27.v20200227" status="release" pubdate="20200227183735" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jetty" downloaded="true" searched="true" default="false" conf="master" position="3">
+				<metadata-artifact status="successful" details="" size="4126" time="11" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.4.27.v20200227.xml" searched="true" original-local-location="/root/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.4.27.v20200227.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.27.v20200227/jetty-util-9.4.27.v20200227.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="9.4.27.v20200227" rev-constraint-default="9.4.27.v20200227" rev-constraint-dynamic="9.4.27.v20200227" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="successful" details="" size="550953" time="19" location="/root/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.4.27.v20200227.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.27.v20200227/jetty-util-9.4.27.v20200227.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="3.1.0" status="release" pubdate="20130425235239" resolver="public" artresolver="main" homepage="http://servlet-spec.java.net" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="successful" details="" size="13527" time="8" location="/root/.ivy2/cache/javax.servlet/javax.servlet-api/ivy-3.1.0.xml" searched="true" original-local-location="/root/.ivy2/cache/javax.servlet/javax.servlet-api/ivy-3.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="jar" ext="jar" status="successful" details="" size="95806" time="13" location="/root/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

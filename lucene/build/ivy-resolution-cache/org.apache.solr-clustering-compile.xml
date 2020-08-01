@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="clustering"
+		revision="working@vultr.guest"
+		conf="compile"
+		confs="compile"
+		date="20200801141348"/>
+	<dependencies>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.10.1" status="release" pubdate="20191109231246" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="30016" time="0" location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.10.1.xml" searched="false" original-local-location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.10.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1403051" time="0" location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.10.1" status="release" pubdate="20191109225822" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="8396" time="0" location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.10.1.xml" searched="false" original-local-location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.10.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="68081" time="0" location="/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.10.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="carrot2-mini">
+			<revision name="3.16.2" status="release" pubdate="20190920104719" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="2693" time="12" location="/root/.ivy2/cache/org.carrot2/carrot2-mini/ivy-3.16.2.xml" searched="true" original-local-location="/root/.ivy2/cache/org.carrot2/carrot2-mini/ivy-3.16.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/carrot2-mini/3.16.2/carrot2-mini-3.16.2.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="3.16.2" rev-constraint-default="3.16.2" rev-constraint-dynamic="3.16.2" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="carrot2-mini" type="jar" ext="jar" status="successful" details="" size="1003766" time="32" location="/root/.ivy2/cache/org.carrot2/carrot2-mini/jars/carrot2-mini-3.16.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/carrot2-mini/3.16.2/carrot2-mini-3.16.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2.attributes" name="attributes-binder">
+			<revision name="1.3.3" status="release" pubdate="20180510112913" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<metadata-artifact status="successful" details="" size="1387" time="15" location="/root/.ivy2/cache/org.carrot2.attributes/attributes-binder/ivy-1.3.3.xml" searched="true" original-local-location="/root/.ivy2/cache/org.carrot2.attributes/attributes-binder/ivy-1.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.3.3/attributes-binder-1.3.3.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="attributes-binder" type="jar" ext="jar" status="successful" details="" size="83452" time="13" location="/root/.ivy2/cache/org.carrot2.attributes/attributes-binder/jars/attributes-binder-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.3.3/attributes-binder-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2.shaded" name="carrot2-guava">
+			<revision name="18.0" status="release" pubdate="20150810094010" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<metadata-artifact status="successful" details="" size="5316" time="9" location="/root/.ivy2/cache/org.carrot2.shaded/carrot2-guava/ivy-18.0.xml" searched="true" original-local-location="/root/.ivy2/cache/org.carrot2.shaded/carrot2-guava/ivy-18.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/shaded/carrot2-guava/18.0/carrot2-guava-18.0.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="carrot2-guava" type="jar" ext="jar" status="successful" details="" size="2329412" time="48" location="/root/.ivy2/cache/org.carrot2.shaded/carrot2-guava/jars/carrot2-guava-18.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/shaded/carrot2-guava/18.0/carrot2-guava-18.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch.thirdparty" name="simple-xml-safe">
+			<revision name="2.7.1" status="release" pubdate="20190918144650" resolver="public" artresolver="main" homepage="https://github.com/dweiss/simplexml" downloaded="true" searched="true" default="false" conf="master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1503" time="8" location="/root/.ivy2/cache/com.carrotsearch.thirdparty/simple-xml-safe/ivy-2.7.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.carrotsearch.thirdparty/simple-xml-safe/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/thirdparty/simple-xml-safe/2.7.1/simple-xml-safe-2.7.1.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="simple-xml-safe" type="jar" ext="jar" status="successful" details="" size="417640" time="16" location="/root/.ivy2/cache/com.carrotsearch.thirdparty/simple-xml-safe/jars/simple-xml-safe-2.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/thirdparty/simple-xml-safe/2.7.1/simple-xml-safe-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

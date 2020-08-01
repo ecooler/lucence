@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="analyzers-icu"
+		revision="working@vultr.guest"
+		conf="compile"
+		confs="compile"
+		date="20200801141213"/>
+	<dependencies>
+		<module organisation="com.ibm.icu" name="icu4j">
+			<revision name="62.2" status="release" pubdate="20190411214538" resolver="public" artresolver="main" homepage="http://icu-project.org/" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<license name="Unicode/ICU License" url="https://raw.githubusercontent.com/unicode-org/icu/master/icu4c/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="4938" time="75" location="/root/.ivy2/cache/com.ibm.icu/icu4j/ivy-62.2.xml" searched="true" original-local-location="/root/.ivy2/cache/com.ibm.icu/icu4j/ivy-62.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/62.2/icu4j-62.2.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-icu" conf="compile" rev="62.2" rev-constraint-default="62.2" rev-constraint-dynamic="62.2" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="icu4j" type="jar" ext="jar" status="successful" details="" size="12372045" time="487" location="/root/.ivy2/cache/com.ibm.icu/icu4j/jars/icu4j-62.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/62.2/icu4j-62.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

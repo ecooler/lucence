@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="replicator"
+		revision="working@vultr.guest"
+		conf="http"
+		confs="http, jetty, start, servlet, logging"
+		date="20200801141235"/>
+	<dependencies>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.10" status="release" pubdate="20190905113805" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-client" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="6609" time="9" location="/root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.10.xml" searched="true" original-local-location="/root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="http" rev="4.5.10" rev-constraint-default="4.5.10" rev-constraint-dynamic="4.5.10" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="successful" details="" size="774640" time="31" location="/root/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.12" status="release" pubdate="20190901112524" resolver="public" artresolver="main" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<metadata-artifact status="successful" details="" size="4968" time="13" location="/root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.12.xml" searched="true" original-local-location="/root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="http" rev="4.4.12" rev-constraint-default="4.4.12" rev-constraint-dynamic="4.4.12" callerrev="working@vultr.guest"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="successful" details="" size="328347" time="19" location="/root/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
